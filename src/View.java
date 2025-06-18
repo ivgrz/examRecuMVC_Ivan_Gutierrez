@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class View {
     Model model = new Model();
 
-
+    /**
+     * Menu de la aplicacion
+     */
     public static void menu(){
         int opcion = 0;
         int numero1 = 0;
@@ -21,7 +23,7 @@ public class View {
         opcion = sc.nextInt();
 
 
-
+// Switch que llama a las funciones del controller para cada caso
         switch (opcion){
             case 1:
                 System.out.println("Introduce el primer sumando:");
@@ -64,7 +66,7 @@ public class View {
 
 
         }
-
+// Condicion para abandonar el programa
     } while (opcion != 5);
 
         System.out.println("Saliendo del programa...");
