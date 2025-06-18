@@ -1,4 +1,7 @@
 public class Datos {
+    /**
+     * Recopilacion de todos los datos que se usaran en el programa
+     */
     private int numero1;
     private int numero2;
     private int resultado;
